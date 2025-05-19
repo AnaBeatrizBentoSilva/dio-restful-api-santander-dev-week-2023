@@ -33,6 +33,6 @@ classDiagram
 
   User *--> "1" Account
   User *--> "1" Card
-  User *--> "0..*" Feature
-  User *--> "0..*" News
+  User *--> "1..*" Feature
+  User *--> "1..*" News
 ```
